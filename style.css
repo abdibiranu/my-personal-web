@@ -1,0 +1,362 @@
+
+/* Header Section Styles */
+.header {
+  background-color: #5a7c92;
+  background-image: url('images/bg-hdr1.jpg');
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+nav {
+  background-color: #f2f2f2;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  font-size: 14px;
+}
+
+.header p {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mylogo {
+  width: 40px;
+}
+
+.navbar {
+  padding: 8px;
+}
+
+.navbar-brand {
+  padding: 0.25rem;
+}
+
+.navbar-nav .nav-link {
+  padding: 0.25rem 0.5rem;
+}
+
+.headertitle {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  padding-top: 50px;
+}
+
+.profile-picture {
+  width: 90%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.profile-picture:hover {
+  transform: scale(1.05);
+}
+
+.h2,
+h1,
+h3,
+h2,
+h4,
+h5 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Additional Styles for Contact Info and Social Links */
+.contact-info {
+  margin-bottom: 10px;
+}
+
+.contact-title {
+  margin: 0;
+}
+
+.contact-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.buttons {
+  margin-top: 20px;
+}
+
+.button {
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-item {
+  margin: 0 10px;
+}
+
+.social-link {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.imagel {
+  max-width: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+.contact-item {
+  margin: 30px;
+}
+
+ul a {
+  color: #ffffff;
+}
+
+/* Separator Styles */
+.separator {
+  border-bottom: 2px solid #ffffff;
+  margin: 20px 0;
+}
+
+/* Styling for the about me section */
+/* Styling for the about me section */
+.aboutme {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+  text-align: center;
+  color: #000000;
+}
+
+.aboutme h2 {
+  color: #343a40;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+/* Container for the image and note */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.abtimg {
+  max-width: 100%;
+  max-height: 600px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.abtimg:hover {
+  transform: scale(1.05);
+}
+
+.aboutnote {
+  text-align: left;
+  color: #000000;
+  font-weight: bold;
+  max-width: 600px; /* Adjust as needed */
+  margin: 20px auto; /* Center the note under the image */
+}
+
+.aboutnote h2 {
+  color: #030303;
+  font-size: 2rem;
+}
+
+.aboutnote p {
+  color: #131414;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.aboutnote b {
+  color: #000000;
+}
+/*my exorience*/
+.mytechexprience{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.experience {
+  margin: 20px;
+  padding: 20px;
+  background-color: #2C3E50;
+  color: #ECF0F1;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 1s;
+}
+/* My Skill */
+.learning-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin: auto;
+  max-width: 600px;
+}
+
+p {
+  color: #0d0e0f;
+  margin-bottom: 20px;
+}
+
+.interests-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.interests-list li {
+  margin: 0 10px;
+  color: #333333;
+  font-weight: bold;
+}
+
+/* Styling for the service section */
+#myservice {
+  background-color: #3498db;
+  color: #F8F9FA;
+  padding: 80px 0;
+justify-content: center;
+align-items: center;
+}
+.h2service , .h3 , .h4{
+  color: #F8F9FA;
+  margin-bottom: 30px;
+}
+.service-title,
+.service-item {
+  text-align: center;
+}
+.service-icon-box img {
+  width: 80px;
+}
+
+.service-item-title {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.service-item-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Button styling */
+button {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #2c3e50;
+  color: #ECF0F1;
+}
+
+/* Styling for the footer section */
+.footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+  display: flex;
+  
+}
+
+.footer h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: cornsilk;
+}
+
+.footlink {
+  margin-bottom: 20px;
+}
+
+.imagel {
+  width: 40px;
+  margin: 0 10px;
+}
+
+/* Styling for the contact form */
+#contactme {
+  background-color: #ffffff;
+  padding: 40px;
+  margin-top: 20px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+}
+#contactme h2 {
+  color: #020202;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+}
+
+.submit {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.submit:hover {
+  background-color: #0056b3;
+}
