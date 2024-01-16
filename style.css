@@ -275,7 +275,9 @@ align-items: center;
   margin-top: 20px;
   font-size: 1.5rem;
 }
-
+.service-item{
+   margin-buttom:20px;
+}
 .service-item-text {
   font-size: 1rem;
   margin-bottom: 20px;
@@ -289,7 +291,6 @@ button {
   border: none;
   cursor: pointer;
   font-size: 1rem;
-  margin-buttom:20px;
 }
 
 /* Hover effect for buttons */
@@ -341,6 +342,24 @@ button:hover {
   color: #020202;
   font-size: 2rem;
   margin-bottom: 20px;
+}
+/* Media query for small screens (max-width) */
+@media screen and (max-width: 600px) {
+  .social-list {
+    flex-direction: column; /* Stack buttons vertically on small screens */
+    align-items: center;    /* Center align the buttons */
+  }
+
+  .social-item {
+    margin: 5px 0; /* Add some margin between the stacked buttons */
+  }
+}
+
+/* Media query for large screens (min-width) */
+@media screen and (min-width: 1200px) {
+  .social-list {
+    justify-content: flex-end; /* Right align the buttons on large screens */
+  }
 }
 
 .form-group {
